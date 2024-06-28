@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 5;
+
+}
+
+
+.Dark header {
+  border-color: white;
+}
+
+
+.Dark * {
+  color: black;
+  background-color:whitesmoke;
+}
+
+body {
+  margin: 0;
+}
+
+/* Product card */
+.product-card {
+  max-width: 210px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+ 
+  
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  width: 50%;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight:500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blueviolet;
+  margin-bottom: 5px;
+}
+
+.product-desc {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background-color: rgb(176, 155, 196);
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  
+}
+
+.add-to-cart-btn:hover {
+  background-color: rgb(175, 132, 216);
+}
+.my-cart{
+  font-size: 24px;
+  color:black;
+  font-weight: 800;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(175, 132, 216)
+}
+
+/* Product list */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+.cart-item {
+  display: flex;
+  gap: 120px;
+  border: 1px solid #aaa;
+  margin: 20px;
+  padding: 30px;
+}
+
+.cart-item .title {
+  width: 300px;
+  color: #111;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.remove {
+  background-color: rgb(176, 155, 196);
+  color: white;
+  text-decoration: none;
+  /* padding: 5px 10px; */
+
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 40px;
+  border: none;
+}
+
+.Icon {
+  background-color: rgb(176, 155, 196);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 30px;
+  width: 30px;
+  border: none;
+}
+
+.cart {
+  font-size: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* General styles */
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* About container */
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Image container */
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  max-width: 100%;
+  height: 500px;
+  border-radius: 8px;
+}
+
+/* Text container */
+.text-container {
+  text-align: center;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.text-container h1 {
+  font-size: 30px;
+  color: rgb(184, 126, 238);
+  font-weight: 800;
+  line-height: 3;
+
+}
+
+.text-container p {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  line-height: 2;
+  color: wheat;
+  margin-bottom: 20px;
+  background-color: #3991b4;
+  box-sizing: border-box;
+  width: 85%;
+  height: 250px;
+  border-radius: 60px;
+}

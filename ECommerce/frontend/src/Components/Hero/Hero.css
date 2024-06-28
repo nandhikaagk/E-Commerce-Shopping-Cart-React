@@ -1,0 +1,54 @@
+.hero{
+    height: 100vh;
+    background:linear-gradient(190deg,#9db4ca,#e1ffea22 70%);
+    display:flex;
+}
+.hero-left{
+     flex:1;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap:20px;
+     padding-left:180px;
+     line-height:1.1;
+}
+.head-left h2{
+    color:rgb(176, 155, 196);
+    font-size: 10px;
+    font-weight: 200;
+}
+.hero-left p{
+    color: #3197c0;
+    font-size: 40px;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.hero-latest-btn
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    width:130px;
+    height:40px;
+    border-radius:75px;
+    margin-top:30px;
+    background:#acc7e0;
+    color:rgb(17, 16, 16);
+    font-size:22px;
+    font-weight:500;
+}
+.hero-right{
+    flex:4;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  
+    
+}
+.image-height{
+    height: 300px;
+    margin-top: -120px;
+}
